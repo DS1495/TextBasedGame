@@ -38,55 +38,7 @@ Cell 1
 Character walks South and obtains a weapon
     IF character walks into Block 2 = print: You have obtained cleaver
           Add Item to inventory
-          Print: You are now armed with a cleaver!
-Cell 2
-     Item: Sergei
-     Inventory : [‘1 Inmate’]
-         Question:
-             Print: What is a common Russian superstition?
-         Prompt character to choose Rubbing a dogs paw with only your left hand or Lighting candles with only your right hand
-         INPUT answer to Question
-         IF Rubbing a dogs paw with only your left hand = print: Da. I will help you
-	 Add Item to inventory
-         ELSE:
-	 print: Nyet. Try Again
-Cell 3
-     Item: Dmitri
-     Inventory : [‘1 Inmate’]
-         A Question:
-            Print: The Trans-Siberian Railway crosses how many timezones?
-         Prompt character to choose 4 or 8
-         INPUT answer to question
-         IF 8 = print: Da. I will help you
-            Add Item to inventory
-         ELSE:
-            print: Nyet. Try Again
-
-Prison Guard:
-         Print: You are caught and must return back to your cell!
-         Prompt Restart Game?
-         INPUT
-         IF Da = game will restart
-         ELSE: 
-           Nyet = game will stop
-Cell 4
-     Item: Nikolai
-     Inventory : [‘1 Inmate’]
-         A Question:
-             Print: The famous classical composition The Seasons was created by?
-         Prompt character to choose Alexander Glazunov or Boris Yeltsin
-         INPUT answer to Question
-         IF Alexander Glazunov = print: Da. I will help you
-	 Add Item to inventory
-         ELSE:
-             print: Nyet. Try Again
-
-    IF: Inventory == [‘Map’,‘1 Inmate’, ‘Cleaver’, ‘1 Inmate’, ‘1 Inmate’, ‘1 Inmate’]
-         prompt character to defeat guards
-         Print: Congratulations comrade you have survived the Gulag
-         Prompt character to play again or end game
-         Play again = game will restart 
-         End Game = game will stop
+          Print: You are now armed with a cleaver![image](https://user-images.githubusercontent.com/88737329/132407200-64ea04a0-eb81-4ab6-bf16-da150429b084.png)
 
 
 
